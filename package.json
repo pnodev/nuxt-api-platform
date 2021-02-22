@@ -1,0 +1,63 @@
+{
+  "name": "@pnodev/nuxt-api-platform",
+  "version": "0.1.0",
+  "description": "A Nuxt module for integrating APIs built with API Platform (including an authentication middleware)",
+  "main": "lib/module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "lint-staged": {
+    "*.{js}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnodev/nuxt-api-platform.git"
+  },
+  "keywords": [
+    "nuxt",
+    "api-platform",
+    "module",
+    "auth",
+    "api"
+  ],
+  "author": "Philipp Nowinski <mail@pno.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pnodev/nuxt-api-platform/issues"
+  },
+  "homepage": "https://github.com/pnodev/nuxt-api-platform#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-auth-refresh": "^3.1.0",
+    "fecha": "^4.2.0",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.20",
+    "pluralize": "^8.0.0",
+    "uuid": "^8.3.2"
+  }
+}
