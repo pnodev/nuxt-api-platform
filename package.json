@@ -1,6 +1,6 @@
 {
   "name": "@pnodev/nuxt-api-platform",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "A Nuxt module for integrating APIs built with API Platform (including an authentication middleware)",
   "main": "lib/module.js",
   "scripts": {
