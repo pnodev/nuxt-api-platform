@@ -54,7 +54,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "axios-auth-refresh": "^3.1.0",
-    "fecha": "^4.2.0",
     "jwt-decode": "^3.1.2",
     "lodash": "^4.17.20",
     "pluralize": "^8.0.0",
