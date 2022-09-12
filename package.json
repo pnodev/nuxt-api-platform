@@ -52,6 +52,7 @@
     "prettier": "^2.1.2"
   },
   "dependencies": {
+    "aws-sdk": "^2.1213.0",
     "axios": "^0.21.1",
     "axios-auth-refresh": "^3.1.0",
     "jwt-decode": "^3.1.2",
