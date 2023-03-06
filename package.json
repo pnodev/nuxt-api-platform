@@ -1,6 +1,6 @@
 {
   "name": "@pnodev/nuxt-api-platform",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "description": "A Nuxt module for integrating APIs built with API Platform (including an authentication middleware)",
   "main": "lib/module.js",
   "scripts": {
@@ -17,20 +17,12 @@
       "pre-commit": "lint-staged"
     }
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pnodev/nuxt-api-platform.git"
   },
-  "keywords": [
-    "nuxt",
-    "api-platform",
-    "module",
-    "auth",
-    "api"
-  ],
+  "keywords": ["nuxt", "api-platform", "module", "auth", "api"],
   "author": "Philipp Nowinski <mail@pno.dev>",
   "license": "MIT",
   "bugs": {
